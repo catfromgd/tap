@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+    user-select: none;
+}
+.main_h1_flex{
+    display: flex;
+    justify-content: center;
+}
+.main_div_kapibara_button{
+    display: flex;
+    justify-content: center;
+}
+.main_div_hromosom_delete{
+    display: flex;
+    justify-content: center;
+}
+.main_div_hromosom_button{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.kapibara_button_img{
+    width: 400px;
+    height: 300px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    margin: -5px;
+}
+.kapibara_button_img:hover{
+    width: 390px;
+    height: 290px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    margin: -5px;
+}
+.main_div_hromosom_counter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main_div_hromosom_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
+.main_div_hromosom_delete_text{
+    font-size: larger;
+}
+.hromosom_counter{
+    font-size: xx-large;
+}
+.hromosom_description{
+    font-size: xx-large;
+}
+.main_awards_div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main_awards{
+    background-color: greenyellow;
+    width: 75vw;
+    height: 5vh;
+    border-radius: 25px;
+    text-align: center;
+}
+
+@media all and (min-width:600px) {
+    .main_awards {
+        background-color: greenyellow;
+        width: 20vw;
+        height: 5vh;
+        border-radius: 25px;
+        text-align: center;
+    }
+}
+
+.main_qrcode_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.main_qrcode{
+    width: 35vw;
+}
+
+@media all and (min-width:600px) {
+    .main_qrcode {
+        width: 10vw;
+    }
+}
